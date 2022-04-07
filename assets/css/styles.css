@@ -139,6 +139,9 @@ img{
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
+a {
+  color: black;
+}
 .section{
     padding: 2rem 0 4rem;
     margin-bottom: 1rem;
