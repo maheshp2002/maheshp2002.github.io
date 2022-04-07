@@ -468,49 +468,6 @@ img{
     transform: translateY(.15rem)
 }
 
-/*==================== INDIA IN COLOURS ====================*/
-.india__img{
-    width: 200px;
-    border-radius: .75rem;
-    justify-self: center;
-    align-self: center;
-}
-
-.india__description{
-    text-align: center;
-    margin-bottom: var(--mb-2-5);
-}
-
-.india__info-title{
-    font-size: var(--h1-font-size);
-    font-weight: var(--font-semi-bold);
-    color: var(--title-color);
-}
-
-.india__info{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: var(--mb-2-5);
-}
-.india__info-name{
-    font-size: var(--small-font-size);
-}
-
-.india__info-title,.india__info-name{
-    display: block;
-    text-align: center;
-}
-
-.india__buttons{
-    display: flex;
-    justify-content: center;
-}
-
-.button:hover .uil-uil-youtube{
-    transform: translateY(.15rem)
-}
-
-
 /*==================== SKILLS ====================*/
 .skills__container{
     row-gap: 0;
