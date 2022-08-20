@@ -1,3 +1,11 @@
+/* INDIA IN COLOURS YOUTUBE CHANNEL DATA */
+
+document.getElementById("numberofvideos").innerHTML = "0";
+document.getElementById("subscribers").innerHTML = "10";
+document.getElementById("totalviews").innerHTML = "3K";
+
+
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
