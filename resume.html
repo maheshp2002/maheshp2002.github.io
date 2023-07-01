@@ -6,6 +6,19 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--====================FAVICON=========================-->
+        <link rel="icon" type="image/x-icon" href="assets\img\favicon.ico">
+
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
@@ -41,16 +54,63 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <!-- <div class="w3-container">
 <p style="color: grey;"><a href="https://maheshp2002.github.io/" style="text-decoration:none;"><i class="fa fa-home fa-fw w3-xlarge w3-text-grey"></i> Home</a></p>
 </div> -->
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="https://maheshp7304.wixsite.com/maheshp" class="nav__logo">Mahesh</a>
 
-<div class="topnav">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list" grid>
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="resume.html" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>Resume
+                            </a>
+                        <li class="nav__item">
+                            <a href="https://macdevilgames.wixsite.com/macdevilgames" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Blog
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="https://twitter.com/Mahesh____P" class="home__social-icon1">
+                                <i class="uil uil-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://github.com/maheshp2002" class="home__social-icon1">
+                                <i class="uil uil-github"></i>
+                            </a>
+                        </li>
+
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+    
+                    <a href="#footer" class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+<!-- <div class="topnav">
   <a>      </a>
   <a href="https://macdevilgames.wixsite.com/macdevilgames">Blog</a>
   <a class="active" href="resume.html">Resume</a>
   <a href="index.html">Home</a>
-</div>
+</div> -->
 
 <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<div class="w3-content resume-body" style="max-width:1400px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -60,56 +120,56 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="assets/img/mac4.jpg" style="width:100%" alt="Avatar">
+          <img src="assets/img/maheshArt/mahesh.jpeg" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <h2 style="color:White;"><b>Mahesh</b></h2>
           </div>
         </div>
-        <div class="w3-container">
+        <div class="w3-container margin-top">
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>Software engineer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>Palakkad, Kerala, India</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>pmahesh2002@gmail.com</p>
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-deep-purple"></i>6238079095</p>
           <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-deep-purple"></i>Skills</b></p>
-          <p>Flutter</p>
+          <p class="w3-large margin-top-bottom"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-deep-purple"></i>Skills</b></p>
+          <p class="margin-top-bottom">Angular, .NET</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-deep-purple" style="width:80%">80%</div>
           </div>
-          <p>HTML, CSS, JavaScript</p>
+          <p class="margin-top-bottom">Flutter</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-deep-purple" style="width:80%">
               <div class="w3-center w3-text-white">80%</div>
             </div>
           </div>
-          <p>C++, SQL</p>
+          <p class="margin-top-bottom">C++, SQL</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-deep-purple" style="width:70%">70%</div>
           </div>
-          <p>Java, Python, PHP, C#</p>
+          <p class="margin-top-bottom">Java, Python, PHP, C#</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-deep-purple" style="width:55%">55%</div>
           </div>
-          <p>Unity</p>
+          <p class="margin-top-bottom">Unity</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-deep-purple" style="width:50%">50%</div>
           </div>
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-deep-purple"></i>Languages</b></p>
-          <p>English</p>
+          <p class="w3-large w3-text-theme margin-top-bottom"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-deep-purple"></i>Languages</b></p>
+          <p class="margin-top-bottom">English</p>
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-deep-purple" style="height:24px;width:80%"></div>
           </div>
-          <p>Hindi</p>
+          <p class="margin-top-bottom">Hindi</p>
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-deep-purple" style="height:24px;width:50%"></div>
           </div>
-          <p>Tamil</p>
+          <p class="margin-top-bottom">Tamil</p>
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-deep-purple" style="height:24px;width:50%"></div>
           </div>
-          <p>Malayalam</p>
+          <p class="margin-top-bottom">Malayalam</p>
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-deep-purple" style="height:24px;width:100%"></div>
           </div>
@@ -128,7 +188,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Associate Software Engineer / <a href="https://www.experionglobal.com/" style="text-decoration:none;">Experion Technologies</a></b></h5>
           <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2022 - <span class="w3-tag w3-deep-purple w3-round">Current</span></h6>
-          <p>Working as associate software engineer at Experion Technologies.</p>
+          <p>Working as Associate Software Engineer at Experion Technologies.</p>
           <hr>
         </div>
         <!-- <div class="w3-container">
@@ -241,16 +301,55 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-deep-purple w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <a href="https://www.facebook.com/people/Mahesh-P/100055104504133/"><i class="fa fa-facebook-official w3-hover-opacity"></a></i>
-  <a href="https://www.instagram.com/m_a_c_dev_il/"><i class="fa fa-instagram w3-hover-opacity"></a></i>
-  <a href="https://www.snapchat.com/add/macusubhi?share_id=vSRhJszXxvM&locale=en-US"><i class="fa fa-snapchat w3-hover-opacity"></a></i>
-  <a href="https://in.pinterest.com/macusubhi/"><i class="fa fa-pinterest-p w3-hover-opacity"></a></i>
-  <a href="https://twitter.com/Mahesh____P"><i class="fa fa-twitter w3-hover-opacity"></a></i>
-  <a href="https://www.linkedin.com/in/mahesh-p-593570228"><i class="fa fa-linkedin w3-hover-opacity"></a></i>
-  <p>Powered by <a href="https://macdevilgames.wixsite.com/macdevilgames" target="_blank">Macdevil games</a></p>
-</footer>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer" id="footer">
+          <div class="footer__bg">
+              <div class="footer__container container grid">
+                  <div>
+                      <h1 class="footer__title">Mahesh P</h1>
+                      <span class="footer__subtitle">Designer | Photographer | Gamer | Developer | Artist | Writer</span>
+                  </div>
+              
+                  <ul class="footer__links">
+                      <!--<li>
+                          <a href="#about" class="footer__link">About</a>
+                      </li>-->
+                      <li>
+                          <a href="https://macdevilgames.wixsite.com/macdevilgames" class="footer__link">Blog</a>
+                          <a href="#" class="footer__link scroll_up">
+                              <i class="uil uil-arrow-circle-up scroll-up__icon"></i>
+                          </a>
+                      </li>
+                      <!--<li>
+                          <a href="#contact" class="footer__link">Contact</a>
+                      </li>-->
+                      <li>
+                      </li>
+                  </ul>
+
+                  <div class="footer__socials">
+                      <a href="https://www.instagram.com/m_a_c_dev_il" class="footer__social-icon">
+                          <i class="uil uil-instagram"></i>
+                      </a>
+                      <a href="https://www.facebook.com/profile.php?id=100055104504133" class="footer__social-icon">
+                          <i class="uil uil-facebook-f"></i>
+                      </a>
+                      <a href="https://twitter.com/Mahesh____P" class="footer__social-icon">
+                          <i class="uil uil-twitter"></i>
+                      </a>                        
+                      <a href="https://youtube.com/channel/UCtyZ14ZoPQ1JEHn5IPt52Ww" class="footer__social-icon">
+                          <i class="uil uil-youtube"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/mahesh-p-593570228" class="footer__social-icon">
+                          <i class="uil uil-linkedin"></i>
+                      </a>
+                      <a href="https://www.github.com/maheshp2002" class="footer__social-icon">
+                          <i class="uil uil-github"></i>
+                      </a>
+                  </div>
+                  <p class="footer__subtitle design">Designed by <a href="#" class="copy__link">Mahesh P</a></p>
+              </div>
+      </footer>
 
 </body>
 </html>
